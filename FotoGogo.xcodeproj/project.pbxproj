@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35EEB6002B4879AC0051C2AE /* FotoGogoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB5FF2B4879AC0051C2AE /* FotoGogoApp.swift */; };
+		35EEB6022B4879AC0051C2AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB6012B4879AC0051C2AE /* ContentView.swift */; };
+		35EEB6042B4879AD0051C2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35EEB6032B4879AD0051C2AE /* Assets.xcassets */; };
+		35EEB6072B4879AD0051C2AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35EEB6062B4879AD0051C2AE /* Preview Assets.xcassets */; };
+		35EEB6112B4879AD0051C2AE /* FotoGogoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB6102B4879AD0051C2AE /* FotoGogoTests.swift */; };
+		35EEB61B2B4879AD0051C2AE /* FotoGogoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB61A2B4879AD0051C2AE /* FotoGogoUITests.swift */; };
+		35EEB61D2B4879AD0051C2AE /* FotoGogoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB61C2B4879AD0051C2AE /* FotoGogoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35EEB60D2B4879AD0051C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35EEB5F42B4879AC0051C2AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35EEB5FB2B4879AC0051C2AE;
+			remoteInfo = FotoGogo;
+		};
+		35EEB6172B4879AD0051C2AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35EEB5F42B4879AC0051C2AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35EEB5FB2B4879AC0051C2AE;
+			remoteInfo = FotoGogo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35EEB5FC2B4879AC0051C2AE /* FotoGogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotoGogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35EEB5FF2B4879AC0051C2AE /* FotoGogoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoGogoApp.swift; sourceTree = "<group>"; };
+		35EEB6012B4879AC0051C2AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35EEB6032B4879AD0051C2AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35EEB6062B4879AD0051C2AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		35EEB60C2B4879AD0051C2AE /* FotoGogoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotoGogoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35EEB6102B4879AD0051C2AE /* FotoGogoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoGogoTests.swift; sourceTree = "<group>"; };
+		35EEB6162B4879AD0051C2AE /* FotoGogoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FotoGogoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35EEB61A2B4879AD0051C2AE /* FotoGogoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoGogoUITests.swift; sourceTree = "<group>"; };
+		35EEB61C2B4879AD0051C2AE /* FotoGogoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoGogoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35EEB5F92B4879AC0051C2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35EEB6092B4879AD0051C2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35EEB6132B4879AD0051C2AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35EEB5F32B4879AC0051C2AE = {
+			isa = PBXGroup;
+			children = (
+				35EEB5FE2B4879AC0051C2AE /* FotoGogo */,
+				35EEB60F2B4879AD0051C2AE /* FotoGogoTests */,
+				35EEB6192B4879AD0051C2AE /* FotoGogoUITests */,
+				35EEB5FD2B4879AC0051C2AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35EEB5FD2B4879AC0051C2AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35EEB5FC2B4879AC0051C2AE /* FotoGogo.app */,
+				35EEB60C2B4879AD0051C2AE /* FotoGogoTests.xctest */,
+				35EEB6162B4879AD0051C2AE /* FotoGogoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35EEB5FE2B4879AC0051C2AE /* FotoGogo */ = {
+			isa = PBXGroup;
+			children = (
+				35EEB5FF2B4879AC0051C2AE /* FotoGogoApp.swift */,
+				35EEB6012B4879AC0051C2AE /* ContentView.swift */,
+				35EEB6032B4879AD0051C2AE /* Assets.xcassets */,
+				35EEB6052B4879AD0051C2AE /* Preview Content */,
+			);
+			path = FotoGogo;
+			sourceTree = "<group>";
+		};
+		35EEB6052B4879AD0051C2AE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				35EEB6062B4879AD0051C2AE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		35EEB60F2B4879AD0051C2AE /* FotoGogoTests */ = {
+			isa = PBXGroup;
+			children = (
+				35EEB6102B4879AD0051C2AE /* FotoGogoTests.swift */,
+			);
+			path = FotoGogoTests;
+			sourceTree = "<group>";
+		};
+		35EEB6192B4879AD0051C2AE /* FotoGogoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				35EEB61A2B4879AD0051C2AE /* FotoGogoUITests.swift */,
+				35EEB61C2B4879AD0051C2AE /* FotoGogoUITestsLaunchTests.swift */,
+			);
+			path = FotoGogoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35EEB5FB2B4879AC0051C2AE /* FotoGogo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35EEB6202B4879AD0051C2AE /* Build configuration list for PBXNativeTarget "FotoGogo" */;
+			buildPhases = (
+				35EEB5F82B4879AC0051C2AE /* Sources */,
+				35EEB5F92B4879AC0051C2AE /* Frameworks */,
+				35EEB5FA2B4879AC0051C2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FotoGogo;
+			productName = FotoGogo;
+			productReference = 35EEB5FC2B4879AC0051C2AE /* FotoGogo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35EEB60B2B4879AD0051C2AE /* FotoGogoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35EEB6232B4879AD0051C2AE /* Build configuration list for PBXNativeTarget "FotoGogoTests" */;
+			buildPhases = (
+				35EEB6082B4879AD0051C2AE /* Sources */,
+				35EEB6092B4879AD0051C2AE /* Frameworks */,
+				35EEB60A2B4879AD0051C2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35EEB60E2B4879AD0051C2AE /* PBXTargetDependency */,
+			);
+			name = FotoGogoTests;
+			productName = FotoGogoTests;
+			productReference = 35EEB60C2B4879AD0051C2AE /* FotoGogoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35EEB6152B4879AD0051C2AE /* FotoGogoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35EEB6262B4879AD0051C2AE /* Build configuration list for PBXNativeTarget "FotoGogoUITests" */;
+			buildPhases = (
+				35EEB6122B4879AD0051C2AE /* Sources */,
+				35EEB6132B4879AD0051C2AE /* Frameworks */,
+				35EEB6142B4879AD0051C2AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35EEB6182B4879AD0051C2AE /* PBXTargetDependency */,
+			);
+			name = FotoGogoUITests;
+			productName = FotoGogoUITests;
+			productReference = 35EEB6162B4879AD0051C2AE /* FotoGogoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35EEB5F42B4879AC0051C2AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					35EEB5FB2B4879AC0051C2AE = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					35EEB60B2B4879AD0051C2AE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 35EEB5FB2B4879AC0051C2AE;
+					};
+					35EEB6152B4879AD0051C2AE = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 35EEB5FB2B4879AC0051C2AE;
+					};
+				};
+			};
+			buildConfigurationList = 35EEB5F72B4879AC0051C2AE /* Build configuration list for PBXProject "FotoGogo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35EEB5F32B4879AC0051C2AE;
+			productRefGroup = 35EEB5FD2B4879AC0051C2AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35EEB5FB2B4879AC0051C2AE /* FotoGogo */,
+				35EEB60B2B4879AD0051C2AE /* FotoGogoTests */,
+				35EEB6152B4879AD0051C2AE /* FotoGogoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35EEB5FA2B4879AC0051C2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EEB6072B4879AD0051C2AE /* Preview Assets.xcassets in Resources */,
+				35EEB6042B4879AD0051C2AE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35EEB60A2B4879AD0051C2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35EEB6142B4879AD0051C2AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35EEB5F82B4879AC0051C2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EEB6022B4879AC0051C2AE /* ContentView.swift in Sources */,
+				35EEB6002B4879AC0051C2AE /* FotoGogoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35EEB6082B4879AD0051C2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EEB6112B4879AD0051C2AE /* FotoGogoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35EEB6122B4879AD0051C2AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35EEB61D2B4879AD0051C2AE /* FotoGogoUITestsLaunchTests.swift in Sources */,
+				35EEB61B2B4879AD0051C2AE /* FotoGogoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35EEB60E2B4879AD0051C2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35EEB5FB2B4879AC0051C2AE /* FotoGogo */;
+			targetProxy = 35EEB60D2B4879AD0051C2AE /* PBXContainerItemProxy */;
+		};
+		35EEB6182B4879AD0051C2AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35EEB5FB2B4879AC0051C2AE /* FotoGogo */;
+			targetProxy = 35EEB6172B4879AD0051C2AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		35EEB61E2B4879AD0051C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		35EEB61F2B4879AD0051C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35EEB6212B4879AD0051C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FotoGogo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.daniel.FotoGogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		35EEB6222B4879AD0051C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FotoGogo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.daniel.FotoGogo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		35EEB6242B4879AD0051C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.daniel.FotoGogoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FotoGogo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FotoGogo";
+			};
+			name = Debug;
+		};
+		35EEB6252B4879AD0051C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.daniel.FotoGogoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FotoGogo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FotoGogo";
+			};
+			name = Release;
+		};
+		35EEB6272B4879AD0051C2AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.daniel.FotoGogoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FotoGogo;
+			};
+			name = Debug;
+		};
+		35EEB6282B4879AD0051C2AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.daniel.FotoGogoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FotoGogo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35EEB5F72B4879AC0051C2AE /* Build configuration list for PBXProject "FotoGogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35EEB61E2B4879AD0051C2AE /* Debug */,
+				35EEB61F2B4879AD0051C2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35EEB6202B4879AD0051C2AE /* Build configuration list for PBXNativeTarget "FotoGogo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35EEB6212B4879AD0051C2AE /* Debug */,
+				35EEB6222B4879AD0051C2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35EEB6232B4879AD0051C2AE /* Build configuration list for PBXNativeTarget "FotoGogoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35EEB6242B4879AD0051C2AE /* Debug */,
+				35EEB6252B4879AD0051C2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35EEB6262B4879AD0051C2AE /* Build configuration list for PBXNativeTarget "FotoGogoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35EEB6272B4879AD0051C2AE /* Debug */,
+				35EEB6282B4879AD0051C2AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35EEB5F42B4879AC0051C2AE /* Project object */;
+}
