@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3529BE532B4F3D8400FA1D36 /* FotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3529BE522B4F3D8400FA1D36 /* FotoPicker.swift */; };
+		354D7DCE2B4B89A400744F86 /* PhotoAsset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354D7DCD2B4B89A400744F86 /* PhotoAsset.swift */; };
 		35EEB6002B4879AC0051C2AE /* FotoGogoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB5FF2B4879AC0051C2AE /* FotoGogoApp.swift */; };
 		35EEB6022B4879AC0051C2AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35EEB6012B4879AC0051C2AE /* ContentView.swift */; };
 		35EEB6042B4879AD0051C2AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35EEB6032B4879AD0051C2AE /* Assets.xcassets */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3529BE522B4F3D8400FA1D36 /* FotoPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoPicker.swift; sourceTree = "<group>"; };
+		354D7DCD2B4B89A400744F86 /* PhotoAsset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAsset.swift; sourceTree = "<group>"; };
+		354D7DCF2B4B96BA00744F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		35EEB5FC2B4879AC0051C2AE /* FotoGogo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FotoGogo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35EEB5FF2B4879AC0051C2AE /* FotoGogoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FotoGogoApp.swift; sourceTree = "<group>"; };
 		35EEB6012B4879AC0051C2AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		354D7DCC2B4B898C00744F86 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				354D7DCD2B4B89A400744F86 /* PhotoAsset.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		35EEB5F32B4879AC0051C2AE = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +107,11 @@
 		35EEB5FE2B4879AC0051C2AE /* FotoGogo */ = {
 			isa = PBXGroup;
 			children = (
+				354D7DCF2B4B96BA00744F86 /* Info.plist */,
 				35EEB5FF2B4879AC0051C2AE /* FotoGogoApp.swift */,
 				35EEB6012B4879AC0051C2AE /* ContentView.swift */,
+				3529BE522B4F3D8400FA1D36 /* FotoPicker.swift */,
+				354D7DCC2B4B898C00744F86 /* Models */,
 				35EEB6032B4879AD0051C2AE /* Assets.xcassets */,
 				35EEB6052B4879AD0051C2AE /* Preview Content */,
 			);
@@ -258,6 +274,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				35EEB6022B4879AC0051C2AE /* ContentView.swift in Sources */,
+				3529BE532B4F3D8400FA1D36 /* FotoPicker.swift in Sources */,
+				354D7DCE2B4B89A400744F86 /* PhotoAsset.swift in Sources */,
 				35EEB6002B4879AC0051C2AE /* FotoGogoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,18 +435,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FotoGogo/Preview Content\"";
+				DEVELOPMENT_TEAM = 66Z2Y678R4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FotoGogo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.daniel.FotoGogo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -445,18 +467,22 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"FotoGogo/Preview Content\"";
+				DEVELOPMENT_TEAM = 66Z2Y678R4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FotoGogo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.daniel.FotoGogo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
