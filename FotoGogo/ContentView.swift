@@ -63,109 +63,22 @@ struct PhotoView: View {
             }
         }
     }
+}
     
-    
-
-
-
-        
-        
-        
-//        asset1 = FotoAsset(asset: asset1) {
-//            asset2 = FotoAsset(asset: asset2) {
-//                guard let asset1 = asset1, let asset2 = asset2 else {
-//                    print("Error: Asset not initialized.")
-//                    return
-//                }
-//                FotoAsset.computeFeaturePrintDistance(asset1: asset1, asset2: asset2) { returned_distance in
-//                    if let returned_distance = returned_distance {
-//                        asset1.getFeatureprint(completion: { featurePrint in
-//                            if let featurePrint = featurePrint {
-//                                print("ASSET 1 COUNT: \(featurePrint.data)")
-//                            }
-//                        })
-//
-//                        asset2.getFeatureprint(completion: { featurePrint in
-//                            if let featurePrint = featurePrint {
-//                                print("ASSET 2 COUNT: \(featurePrint.data)")
-//                            }
-//                        })
-//                        print("DISTANCE: \(returned_distance)")
-//                        distance = returned_distance
-//                    } else {
-//                        print("Distance could not be calculated.")
-//                    }
-//                }
-//            }
-//        }
-    }
-    
-    func deleteAssets(assets: [PHAsset]){
-        PHPhotoLibrary.shared().performChanges {
-            PHAssetChangeRequest.deleteAssets(assets as NSArray)
-        } completionHandler: { (success, error) in
-            if success {
-                print("Great success")
-            } else {
-                if let error = error {
-                    print("Error deleting asset: \(error)")
-                }
+func deleteAssets(assets: [PHAsset]){
+    PHPhotoLibrary.shared().performChanges {
+        PHAssetChangeRequest.deleteAssets(assets as NSArray)
+    } completionHandler: { (success, error) in
+        if success {
+            print("Great success")
+        } else {
+            if let error = error {
+                print("Error deleting asset: \(error)")
             }
         }
-        
     }
     
-//    private func fetchImageData(asset: PHAsset) {
-//        let requestOptions: PHImageRequestOptions = {
-//            let options = PHImageRequestOptions()
-//            options.isNetworkAccessAllowed = true
-//            return options
-//        }()
-//
-//        PHImageManager.default().requestImageDataAndOrientation(for: asset, options: requestOptions) { (imageData, returned_data, orientation, info) in
-//            if let imageData = imageData {
-//                if let image = UIImage(data: imageData) {
-//                    DispatchQueue.main.async {
-//                        self.image = image
-//                    }
-//                }
-//                if let infoDict = info {
-//                    print("Additional Info:")
-//                    for (key, value) in infoDict {
-//                        print("\(key): \(value)")
-//                    }
-//                }
-//            }
-//            if let imageUrl = info?["PHImageFileURLKey"] as? URL {
-//                print("Image URL: \(imageUrl)")
-//            }
-//        }
-//    }    private func fetchImageData(asset: PHAsset) {
-//        let requestOptions: PHImageRequestOptions = {
-//            let options = PHImageRequestOptions()
-//            options.isNetworkAccessAllowed = true
-//            return options
-//        }()
-//
-//        PHImageManager.default().requestImageDataAndOrientation(for: asset, options: requestOptions) { (imageData, returned_data, orientation, info) in
-//            if let imageData = imageData {
-//                if let image = UIImage(data: imageData) {
-//                    DispatchQueue.main.async {
-//                        self.image = image
-//                    }
-//                }
-//                if let infoDict = info {
-//                    print("Additional Info:")
-//                    for (key, value) in infoDict {
-//                        print("\(key): \(value)")
-//                    }
-//                }
-//            }
-//            if let imageUrl = info?["PHImageFileURLKey"] as? URL {
-//                print("Image URL: \(imageUrl)")
-//            }
-//        }
-//    }
+}
 
 struct ContentView: View {
     @State private var selectedAssets: [PHAsset] = []
@@ -179,7 +92,6 @@ struct ContentView: View {
                 } else {
                     Text("No Photos On Device")
                 }
-                
             }
             .onAppear {
                 getPhotos(numberOfPhotos: num)
